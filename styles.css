@@ -1,0 +1,59 @@
+:root {
+    --primary-color: red;
+    --secondary-color: blue;
+}
+
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color)
+}
+
+nav {
+    background-color: gray;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-left: 2rem
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.fframe {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+
+
