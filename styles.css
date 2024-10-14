@@ -20,6 +20,10 @@ a:hover {
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
     background-color: gray;
     padding: 1rem 1.5rem;
     display: flex;
@@ -35,25 +39,29 @@ ul {
     justify-content: space-between;
 }
 
-.about {
+.home, .about, .skills, .portfolio, .contact {
     min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 .frame {
-    width: 100px;
-    height: 100px;
+    width: 75%;
+    height: 200px;
     background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.fframe {
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
+.greeting {
+    color: greenyellow;
+    font-size: 36px;
 }
+
 
 
 
