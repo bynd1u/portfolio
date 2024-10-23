@@ -52,6 +52,15 @@ ul {
     font-size: large;
 }
 
+.about .frame {
+    flex-direction:column;
+    height: auto;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
 
 .frame {
     width: 75%;
