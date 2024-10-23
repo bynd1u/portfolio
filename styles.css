@@ -1,11 +1,12 @@
 :root {
-    --primary-color: red;
-    --secondary-color: blue;
+    --primary-color: #FCEE09;
+    --secondary-color: #54c1e6;
+    --third-color: #39c4b6;
 }
 
 * {
     margin: 0;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'myFirstFont';
     font-weight: 400;
 }
 
@@ -17,6 +18,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -28,10 +30,13 @@ nav {
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: gray;
-    padding: 1rem 1.5rem;
+    
+    text-transform: uppercase;
+    background-color: #646613;
+    padding: 1rem 1.75rem;
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
 }
 
 .nav-item {
@@ -44,7 +49,12 @@ ul {
 }
 
 body {
-    background-color: bisque;
+    background-color: var(--primary-color);
+}
+
+h3 {
+    color: #54c1e6;
+    font-size: 36px;
 }
 
 .home, .about, .skills, .portfolio, .contact {
@@ -56,7 +66,37 @@ body {
 
 .home {
     font-size: large;
-    background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    font-family: "refinery-25";
+    background-position: center;
+    background-size: cover;
+    font-size: 56px;
+    background: linear-gradient(to bottom, #FCEE09 75%, hsl(0, 0%, 0%));
+}
+
+.about {
+    background: black;
+    color: white;
+    font-size: large;
+    color: var(--third-color);
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.my-avatar {
+    width: auto;
+    height: 100dvh;
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    width: auto;
+    height: 100dvh;
+}
+
+.home .frame {
+    flex-direction: column;
+    height: auto;
 }
 
 .about .frame {
@@ -82,18 +122,26 @@ body {
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--secondary-color);
+    margin: 25px;
 }
 .social-icon {
     width: 50px;
     height: 50px;
 }
 
+.social-links {
+    margin-top: 25px;
+}
+
+
+
 .frame {
     width: 75%;
     height: 200px;
-    background-color: hsl(271, 76%, 53%, 0.5);
+    /*background-color: #fee801;*/
     text-align: center;
     display: flex;
     align-items: center;
@@ -106,7 +154,9 @@ body {
 }
 
 .name, .welcome{
-    color: rgb(47, 217, 255);
+    color: #000000;
+    font-weight: bold;
+    font-size: 56px;
 }
 
 button {
@@ -200,6 +250,17 @@ footer {
     text-align: center;
     padding: 2rem;
   }
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url("blender-pro-book.otf") format("opentype");;
+}
+@font-face {
+    font-family: "refinery-25";
+    src: url("refinery-25-medium.otf") format("opentype");;
+}
+
+
 
 
 
