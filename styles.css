@@ -5,6 +5,8 @@
 
 * {
     margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
 }
 
 
@@ -68,6 +70,12 @@ body {
     background-color: #000000b2;
 }
 .portfolio .frame {
+    flex-direction: column;
+    height: auto;
+    background-color: #000000b2;
+}
+
+.contact .frame{
     flex-direction: column;
     height: auto;
     background-color: #000000b2;
@@ -155,7 +163,36 @@ hr {
     content: icon;
 }
 
+.contact1 {
+    padding: 12px 24px 24px 24px;
+    margin: 48px 12px;
+    background: #E3F2FD;
+    border-radius: 4px;
+}
 
+label {
+    font-size: 0.85em;
+    margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 300px;
+}
 
 
 
