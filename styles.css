@@ -116,6 +116,15 @@ img {
    
 }
 
+.skills {
+    background: black;
+    flex-direction: column;
+}
+
+.skills .frame {
+    flex-direction: column;
+}
+
 .contact .frame{
     flex-direction: column;
     height: auto;
@@ -173,11 +182,13 @@ button {
 hr {
     border-top: 1px solid red;
     width: 100%;
+    border-color: red;
 }
+
+
 
 .skills1 {
     margin-top: 20px;
-    background-color: chartreuse;
     display: flex;
 }
 
@@ -266,6 +277,20 @@ footer {
 
 .social-media-icons {
     font-size: 3rem;
+}
+
+.skills-items {
+    font-size: 3rem;
+    gap: 13px;
+    justify-content: right;
+    padding-left: 30%;
+}
+.skill-text {
+    max-width: 30%;
+    padding-right: 20%;
+    padding-left: 10%;
+    text-align: center;
+    color: var(--third-color)
 }
 
 .portfolio h3 {
