@@ -112,7 +112,8 @@ img {
 .portfolio .frame {
     flex-direction: column;
     height: auto;
-    background-color: #000000b2;
+    width: auto;
+   
 }
 
 .contact .frame{
@@ -141,11 +142,12 @@ img {
 .frame {
     width: 75%;
     height: 200px;
-    /*background-color: #fee801;*/
+   
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .greeting {
@@ -195,9 +197,10 @@ hr {
 }
 
 .portfolio-container {
+    margin-top: 50px;
     display: flex;
     height:fit-content;
-    gap: 10px;
+    gap: 6px;
     max-height: 200px;
     flex-wrap: wrap;
     align-items: center;
@@ -206,11 +209,12 @@ hr {
 }
 
 .portfolio-item {   
-    width: 200px;
+    width: 360px;
     height: 200px;
     background-color: blueviolet;
     padding: 10px;
-    content: icon;
+    
+   border: 4px solid black
 }
 
 .contact1 {
@@ -258,6 +262,14 @@ footer {
 @font-face {
     font-family: "refinery-25";
     src: url("refinery-25-medium.otf") format("opentype");;
+}
+
+.social-media-icons {
+    font-size: 3rem;
+}
+
+.portfolio h3 {
+    color: black;
 }
 
 
