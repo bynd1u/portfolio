@@ -259,12 +259,11 @@ i {
 .portfolio-container {
     margin-top: 50px;
     display: flex;
-    height:fit-content;
     gap: 60px 30px;
-    max-height: 200px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
     
     
 }
