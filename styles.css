@@ -128,7 +128,7 @@ img {
 .contact .frame{
     flex-direction: column;
     height: auto;
-    background-color: #000000b2;
+   
 }
 
 .avatar {
@@ -231,8 +231,12 @@ hr {
 .contact1 {
     padding: 12px 24px 24px 24px;
     margin: 48px 12px;
-    background: #E3F2FD;
-    border-radius: 4px;
+    background:  black;
+    color: var(--third-color);
+    border-radius: 12px;
+}
+.contact1 h3 {
+    color: var(--secondary-color) !important;
 }
 
 label {
@@ -243,16 +247,32 @@ label {
 input[type=text],input[type=email], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #646613;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    background-color: #646613;
+    color: white;
+    font-size: large;
+    
+}
+
+input[type=submit] {
+    color: black;
+    background-color: #54c1e6;
+}
+
+textarea  {
+    background-color: #646613;
+    color: white;
+    font-size: large;
 }
 
 .submit-button {
     text-align: center;
+    
 }
 
 .contact {
@@ -260,8 +280,8 @@ input[type=text],input[type=email], textarea {
 }
 
 footer {
-    border-top: 1px solid #f1f1f1;
-    box-shadow: 0px -2px 3px #f1f1f1;
+    border-top: 1px solid #000000;
+    box-shadow: 0px -2px 3px #000000;
     text-align: center;
     padding: 2rem;
   }
@@ -294,6 +314,9 @@ footer {
 }
 
 .portfolio h3 {
+    color: black;
+}
+.contact h3 {
     color: black;
 }
 
