@@ -223,9 +223,12 @@ hr {
     width: 360px;
     height: 200px;
     background-color: blueviolet;
-    padding: 10px;
-    
-   border: 4px solid black
+    border: 4px solid black;
+}
+.portfolio-item img {
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .contact1 {
