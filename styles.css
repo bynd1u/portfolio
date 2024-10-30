@@ -28,8 +28,40 @@ a:hover {
 @media screen and (max-width: 768px) {
     .hamburger {
         display: block !important;
+        margin: 0;
         cursor: pointer;
     }
+
+    ul {
+        background-color: #646613;
+        flex-direction: column;
+        position: fixed;
+        left: 100%;
+        top: 5rem;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+      }
+
+      ul.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2rem 0;
+      }
+
+      .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+      }
+    
+      .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+      }
 }
 
 .hamburger {
