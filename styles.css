@@ -43,6 +43,7 @@ a:hover {
         width: 100%;
         text-align: center;
         padding-left: 0;
+        
       }
 
       ul.active {
@@ -82,7 +83,11 @@ a:hover {
         padding-bottom: 100px !important;
     }
 
-    
+   
+}
+
+body {
+    overflow-x: hidden;
 }
 
 
