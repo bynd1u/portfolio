@@ -10,8 +10,6 @@
     font-weight: 400;
 }
 
-
-
 ul {
     list-style-type: none;
 }
@@ -44,7 +42,6 @@ nav {
     top: 0;
     left: 0;
     z-index: 1;
-    
     text-transform: uppercase;
     background-color: hsla(0, 0%, 0%, 0.5);
     padding: 1rem 1.75rem;
@@ -52,7 +49,6 @@ nav {
     justify-content: space-between;
     font-size: 24px;
     backdrop-filter: blur(16px);
-
     border-bottom: 2px solid yellow;
 }
 
@@ -89,6 +85,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .home {
@@ -120,41 +118,9 @@ img {
     height: 100dvh;
 }
 
-.home .frame {
-    flex-direction: column;
-    height: auto;
-}
-
-.about .frame {
-    flex-direction: column;
-    height: auto;
-}
-
-.skills .frame {
-    flex-direction: column;
-    height: auto;
-    background-color: #000000b2;
-}
-.portfolio .frame {
-    flex-direction: column;
-    height: auto;
-    width: auto;
-   
-}
-
 .skills {
     background: black;
     flex-direction: column;
-}
-
-.skills .frame {
-    flex-direction: column;
-}
-
-.contact .frame{
-    flex-direction: column;
-    height: auto;
-   
 }
 
 .avatar {
@@ -170,19 +136,6 @@ img {
 
 .social-links {
     margin-top: 25px;
-}
-
-
-
-.frame {
-    width: 75%;
-    height: 200px;
-   
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .greeting {
@@ -202,8 +155,6 @@ hr {
     border-color: red;
 }
 
-
-
 .skills1 {
     margin-top: 20px;
     display: flex;
@@ -218,7 +169,6 @@ i {
     font-size: 50px;
 }
 
-
 .portfolio-container {
     margin-top: 50px;
     display: flex;
@@ -226,13 +176,9 @@ i {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
-    
-    
 }
 
 .portfolio-item {   
-  
     background-color: blueviolet;
     border: 4px solid black;
     font-size: 36px;
