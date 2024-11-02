@@ -38,7 +38,7 @@ body {
   }
 
 nav {
-    position: sticky;
+    position: sticky; 
     top: 0;
     left: 0;
     z-index: 1;
@@ -78,9 +78,7 @@ h3 {
     font-size: 36px;
 }
 
-
-
-.home, .about, .skills, .portfolio, .contact {
+section {
     min-height: 100dvh;
     display: flex;
     align-items: center;
@@ -129,21 +127,8 @@ img {
     border: 5px solid var(--secondary-color);
     margin: 30px;
 }
-.social-icon {
-    width: 50px;
-    height: 50px;
-}
 
-.social-links {
-    margin-top: 25px;
-}
-
-.greeting {
-    color: greenyellow;
-    font-size: 36px;
-}
-
-.name, .welcome{
+.name {
     color: #000000;
     font-weight: bold;
     font-size: 56px;
@@ -162,7 +147,6 @@ hr {
 
 .skills1 hr {
     width: 1px;
-   
 }
 
 i {
@@ -213,13 +197,11 @@ left: 0;
 height: 48px;
 }
 
-.skills, .about{
-    position: relative;
-    overflow: hidden;
+.skills, .about, .portfolio{
+    position: relative
 }
+
 .portfolio {
-    position: relative;
-    overflow: hidden;
     padding-bottom: 120px;
 }
 
