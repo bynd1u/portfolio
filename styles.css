@@ -25,7 +25,9 @@ a:hover {
     color: var(--secondary-color)
 }
 
-
+.icon-red {
+    color: red;
+}
 
 @media screen and (max-width: 768px) {
     .hamburger {
@@ -137,6 +139,8 @@ h3 {
     color: #54c1e6;
     font-size: 36px;
 }
+
+
 
 .home, .about, .skills, .portfolio, .contact {
     min-height: 100dvh;
