@@ -6,7 +6,7 @@
 
 * {
     margin: 0;
-    font-family: 'myFirstFont';
+    font-family: "blender-pro-book";
     font-weight: 400;
 }
 
@@ -147,7 +147,7 @@ h3 {
 
 .home {
     font-size: large;
-    font-family: "refinery-25";
+    font-family: "refinery-25" !important;
     background-position: center;
     background-size: cover;
     font-size: 56px;
@@ -419,13 +419,10 @@ footer {
   }
 
 @font-face {
-    font-family: "myFirstFont";
-    src: url("blender-pro-book.otf") format("opentype");;
+    font-family: "blender-pro-book";
+    src: url("fonts/blender-pro-book.otf") format("opentype");;
 }
-@font-face {
-    font-family: "refinery-25";
-    src: url("refinery-25-medium.otf") format("opentype");;
-}
+
 
 .social-media-icons {
     font-size: 3rem;
