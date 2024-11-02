@@ -260,12 +260,12 @@ i {
     padding-bottom: 100px;
   }
 
-  .section-divider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 48px;
-  }
+.section-divider {
+position: absolute;
+bottom: 0;
+left: 0;
+height: 48px;
+}
 
 .skills, .about{
     position: relative;
