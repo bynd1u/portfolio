@@ -15,8 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 ul {
     list-style-type: none;
     display: flex;
@@ -59,7 +57,10 @@ i {
 
 
 nav {
-    position: sticky; 
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    align-items: center; 
     top: 0;
     left: 0;
     z-index: 1;
@@ -113,7 +114,8 @@ section {
     background-position: center;
     background-size: cover;
     font-size: 56px;
-    background: linear-gradient(to bottom, #FCEE09 75%, hsl(0, 0%, 0%));
+    background: radial-gradient(circle at bottom, var(--primary-color), rgba(0, 0, 0, 0.145), rgb(0, 0, 0) 100%);
+    
 }
 
 .name {
@@ -191,6 +193,7 @@ section {
 
 .portfolio {
     padding-bottom: 120px;
+    
 }
 
 .portfolio-container {
@@ -227,7 +230,7 @@ section {
 }
 
 
-.skills, .about, .portfolio {
+.skills, .about, .portfolio, .home {
     position: relative
 }
 
@@ -356,14 +359,14 @@ footer {
 
 
     .portfolio-item {
-        width: 540px !important;
-        height: 300px !important;
+        width: 360px !important;
+        height: 200px !important;
         object-fit: cover;
     }
 
     .portfolio-item img {
-        width: 540px !important;
-        height: 300px !important;
+        width: 360px !important;
+        height: 200px !important;
         object-fit: cover;
     }
     .portfolio {
